@@ -1,0 +1,115 @@
+* {
+    margin: 0; /* Altera a margem */
+    padding: 0; /*Define a distância entre o elemento e a borda  */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Define a fonte dos textos  */
+    line-height: 1.6; /* Define o espaçamento entre as linhas */
+    background-color: #f9f9f9; /* Define a cor de fundo do elemento  */
+}
+
+nav {
+    position: fixed; /* Deixa o elemento fixo na rolagem */
+    top: 10; /* Define a distância do elemento em relação ao topo  */
+    width: 100%; /* Define a largura do elemento */
+}
+
+nav ul {
+    list-style-type: none; /* Define o estilo do marcador de uma lista */
+    display: flex; /* Define a forma como o conteúdo é exibido */
+    justify-content: center; /* Define o alinhamento dos items */
+}
+
+nav ul li {
+    margin: 0 20px; /* Altera a margem  */
+    color: white; /* Define a cor do elemento */
+    text-decoration: none; /* Define a decoração do texto */
+    font-size: 18px; /* Define o tamanho da fonte do texto */
+    padding: 10px; /*Define a distância entre o elemento e a borda */
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Define a cor do texto */
+}
+
+section:not(#home) {
+    padding: 100px 20px; /*Define a distância entre o elemento e a borda */
+    text-align: center; /* Define o alinhamento do texto */
+    display: flex; /* Define a forma como o conteúdo é exibido */
+    justify-content: center; /* Define o alinhamento do conteúdo */
+    align-items: center; /* Define o alinhamento dos items */
+    height: 100vh; /* Define a altura do elemento */
+}
+
+#home{
+    /* background: #4A90E2; */ /* Define a cor de fundo */
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/03/23/56/sea-3652697_1280.jpg); /* Define uma imagem de fundo para o site */
+    background-size: cover; /* Define o tamanho do background */
+    background-repeat: no-repeat; /* Define a repetição da imagem de background */
+    color: rgb(0, 0, 0); /* Define a cor do texto */
+    height: 100vh; /* Define a altura do elemento */
+    text-align: center; /* Define o alinhamento do texto */
+    display: flex; /* Define a forma como o conteúdo é exibido */
+    flex-direction: column; /* Define como o display flex exibe o conteúdo */
+    justify-content: center; /* Define o alinhamento do conteúdo */
+    align-items: center; /* Define o alinhamento dos items */
+    font-size: 1.5em; /* Define o tamanho da fonte do texto */
+}
+
+.content{
+    display: flex; /* Define a forma como o conteúdo é exibido */
+    flex-direction: row; /* Define como o display flex exibe o conteúdo */
+    align-items: center; /* Define o alinhamento dos items */
+    justify-content: center; /* Define o alinhamento do conteúdo */
+}
+
+.content img{
+    width: 400px; /* Define a largura do elemento */
+    height: 300px; /* Define a altura do elemento */
+    object-fit: cover; /* Define a escala do elemento em relação ao tamanho de altura e largura */
+    margin-right: 20px; /* Altera a distância da margem em relação a direita */
+    border-radius: 8px; /* Altera os cantos do elemento */
+}
+
+.content .text{
+    max-width: 600px; /* Define a largura máxima do elemento */
+    text-align: left; /* Define o alinhamento do texto */
+}
+
+.content .text h2{
+    font-size: 2em; /* Define o tamanho da fonte do texto */
+    margin-bottom: 20px; /* Altera a distância da margem em relação ao fundo */
+    color: #333; /* Define a cor do elemento */
+}
+
+.context .text p{
+    font-size: 1.1em; /* Define o tamanho da fonte do texto */
+    margin-bottom: 20px; /* Altera a distância da margem em relação ao fundo */
+    color: #555; /* Define a cor do elemento */
+}
+
+#services{
+    background-color: #ffffff; /* Define a cor de fundo do elemento  */
+}
+
+#about{
+    background-color: #EAEAEA; /* Define a cor de fundo do elemento  */
+}
+
+.cta-button {
+    margin-top: 30px; /* Altera a distância da margem em relação ao topo */
+    background-color: #89ff29; /* Define a cor de fundo do elemento */
+    color: rgb (0, 0, 0); /* Define a cor do elemento */
+    padding: 15px 30px; /*Define a distância entre o elemento e a borda */
+    font-size: 18px; /* Define o tamanho da fonte do texto */
+    border: none; /* Define as propriedades da borda do elemento */
+    border-radius: 15px; /* Altera os cantos do elemento */
+    cursor: pointer; /* Define a aparência do mouse em um elemento */
+    box-shadow: 0px 4px 6px rgba (0, 0, 0, 0.1); /* Define a sombra do elemento */
+    transition: background-color 1s ease, transform 1s ease; /* Define uma transição para o elemento */
+
+
+}
